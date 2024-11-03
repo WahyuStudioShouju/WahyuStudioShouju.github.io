@@ -1,0 +1,45 @@
+:root{
+    --warna-dasar: #8be896;
+    --navbar:#181b28;
+    --latar:#15161b;
+}
+
+@media (max-width: 600px){
+    .navbar-extra{
+        display: inline-block;
+      }
+    .navbar-nav{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        width: 100%;
+        height: 100vh;
+        transition: 0.2s;
+        background-color:var(--latar);
+      }
+    
+      .navbar-nav.active{
+        right: 0;
+      }
+    
+      .navbar-nav a{
+        color: white;
+        display: block;
+        margin: 1.5rem;
+        padding: 0.5rem;
+        font-size: 1rem;
+        border-radius: 5px;
+        font-size:1.2rem;
+        border-bottom: 1px solid white;
+      }
+
+      .navbar-nav ul{
+        margin-right:7%;
+        margin-left: 3%;
+      }
+
+      .navbar-nav a:hover{
+        border-bottom: 1px solid black;
+        color: black;
+      }
+}

@@ -1,0 +1,48 @@
+.s2{
+  display: flex;
+  flex-direction: column;
+  padding: 0 7%;
+  margin-bottom: 5rem;
+}
+
+.menu2{
+  background-color: #272727;
+  height: 3rem;
+  border-radius: 5px;
+  margin: 0.5rem 0;
+  align-items: center;
+  justify-content: start;
+  display: flex;
+  padding-left: 2rem;
+  border: solid 1px white;
+  color: white;
+}
+
+.menu-page1{
+  display: flex;
+  margin: 1rem;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.menu1{
+  background-color: #272727;
+  height: 3rem;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: start;
+  display: flex;
+  border: solid 1px white;
+  color: white;
+  padding: 0rem 2rem;
+}
+
+
+.s2page-dbms p{
+  color: white;
+}
+
+.s2page-dbms{
+  padding: 0 7%;
+}
